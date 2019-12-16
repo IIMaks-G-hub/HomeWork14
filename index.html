@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <script type="text/javascript" src="code.js" defer></script>
+    <script type="text/javascript" src="jq.js" defer></script>
+    <link rel="stylesheet" href="font-awesome/css/all.css">
+
     
     <title>Document</title>
 </head>
@@ -37,19 +41,24 @@
 </div>
 
 <div class="main_picture">
-    <div> <img src="pics/site1.jpg"> </div>
-    <div> <img src="pics/site2.jpg"></div>
-    <div> <img src="pics/site3.jpg"></div>
-    <div> <img src="pics/news1.jpg"></div>
-    <div> <img src="pics/news2.jpg"></div>
+    <div class="slider-lenta-item" id="sl_4"><img src="pics/news2.jpg"> </div>
+    <div class="slider-lenta-item real" id="sl_0"> <img src="pics/site1.jpg"> </div>
+    <div class="slider-lenta-item real" id="sl_1"> <img src="pics/site2.jpg"></div>
+    <div class="slider-lenta-item real" id="sl_2"> <img src="pics/site3.jpg"></div>
+    <div class="slider-lenta-item real" id="sl_3"> <img src="pics/news1.jpg"></div>
+    <div class="slider-lenta-item real" id="sl_4"><img src="pics/news2.jpg"></div>
+    <div class="slider-lenta-item" id="sl_0"> <img src="pics/site1.jpg"> </div>
 
 </div>
+<div class="slider-arrow-left"><i class="fas fa-arrow-left"> </i> </div>
+<div class="slider-arrow-right"><i class="fas fa-arrow-right"></i> </div>
+<pre id="log"></pre>
 
 
 <section class="info">
      <div class="info1">
         <div class="info1_img info1_site"></div>
-        <h3 class="info1_h3">
+        <h3 class="info1_h3"> 
         Создадим продающий сайт
     </h3>
         <p class="info1_text_p">
@@ -110,6 +119,6 @@
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script type="text/javascript" src="code.js"></script>
+    
 </body>
 </html>
